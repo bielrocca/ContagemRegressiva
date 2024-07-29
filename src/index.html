@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/main.scss">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- Lib efeitos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__image" data-aos="fade-left" data-aos-delay="200" src="./images/happy.png" alt="emoji festivo">
+            <p class="hero__text">
+                My birthday is on <br><span id="contador">--d --h --m --s</span>
+            </p>
+            <p class="hero__description">Join my birthday with just one click:</p>
+        </div>
+        <button class="hero__button" data-aos="fade-up" data-aos-delay="800">Tap here</button>
+    </header>
+    <section class="resume">
+        <h2 class="resume__text">Party Details</h2>
+        <div class="container">
+            <img class="resume__image" data-aos="fade-right" data-aos-delay="100" src="./images/party.jpg" alt="localização">
+            <ul class="resume__image__item" data-aos="fade-right" data-aos-delay="100">
+                <b><li class="resume__image__item__title">Localização:</li></b>
+                <li>Rua Mario Costa</li>
+                <li>Bairro Jardim Eldorado</li>
+                <li>N 123</li>
+                <li>Complemento: Salão de esquina</li>
+            </ul>
+            <img class="resume__image" data-aos="fade-right" data-aos-delay="200" src="./images/festa.jpg" alt="atrativos">
+            <ul class="resume__image__item" data-aos="fade-right" data-aos-delay="200">
+                <b><li class="resume__image__item__title">Atrativos:</li></b>
+                <li>Jogos de Fliperama</li>
+                <li>Briquedos Inflaveis</li>  
+                <li>Músicas</li>
+                <li>Karaoke</li>
+            </ul>
+            <img class="resume__image" data-aos="fade-right" data-aos-delay="300" src="./images/refeicao.jpg" alt="refeição">
+            <ul class="resume__image__item" data-aos="fade-right" data-aos-delay="300">
+                <b><li class="resume__image__item__title">Comida & Bebidas</li></b>
+                <li>Porções de Fritas</li>
+                <li>Porções de Frango</li>
+                <li>Porções de Peixe</li>
+                <li>Salgados</li>
+                <li>Lanche frio</li>
+                <li>Refrigerantes</li>
+                <li>Água</li>
+                <li>Sucos</li>
+            </ul>
+            <img class="resume__image" data-aos="fade-right" data-aos-delay="400" src="./images/balloons.jpg" alt="Baloes">
+            <ul class="resume__image__item" data-aos="fade-right" data-aos-delay="400">
+                <b><li class="resume__image__item__title">Regras:</li></b>
+                <li>Não jogar lixo no chão</li>
+                <li>Não criar confusão</li>
+                <li>Respeitar uns aos outros</li>
+                <li>Colaborar com o Aniversariante</li>
+            </ul>
+        </div>
+    </section>
+    <section class="music">
+        <h2 class="music__title">Songs that will be played</h2>
+        <div class="container">
+            <div>
+                <p class="container__title">Rock</p>
+                <ul class="music__list">
+                    <li class="music__list__item" data-aos="fade-right" data-aos-delay="100">
+                        <img class="music__list__image" src="./images/guns_n_roses.png">
+                        <p>Welcome to the Jungle</p>
+                    </li>
+                    <li class="music__list__item" data-aos="fade-right" data-aos-delay="200">
+                        <img class="music__list__image" src="./images/foo-fighters.png">
+                        <p>Everlong</p>
+                    </li>
+                    <li class="music__list__item" data-aos="fade-right" data-aos-delay="300">
+                        <img class="music__list__image" src="./images/Metallica.png">
+                        <p>For Whom The Bells Tolls</p>
+                    </li>
+                    <li class="music__list__item" data-aos="fade-right" data-aos-delay="400">
+                        <img class="music__list__image" src="./images/Metallica.png">
+                        <p>One</p>
+                    </li>
+                    <li class="music__list__item" data-aos="fade-right" data-aos-delay="500">
+                        <img class="music__list__image" src="./images/iron-maiden.jpg">
+                        <p>Phantom of the Opera</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="container__title">Pagode</p>
+                <ul class="music__list">
+                    <li class="music__list__item" data-aos="fade-right" data-aos-delay="100">
+                        <img class="music__list__image" src="./images/tdp_logo.jpg">
+                        <p>Camisa 10</p>
+                    </li>
+                    <li class="music__list__item" data-aos="fade-right" data-aos-delay="200">
+                        <img class="music__list__image" src="./images/tdp_logo.jpg">
+                        <p>Camisa 10</p>
+                    </li>
+                    <li class="music__list__item" data-aos="fade-right" data-aos-delay="300">
+                        <img class="music__list__image" src="./images/tdp_logo.jpg">
+                        <p>Camisa 10</p>
+                    </li>
+                    <li class="music__list__item" data-aos="fade-right" data-aos-delay="400">
+                        <img class="music__list__image" src="./images/tdp_logo.jpg">
+                        <p>Camisa 10</p>
+                    </li>
+                    <li class="music__list__item" data-aos="fade-right" data-aos-delay="500">
+                        <img class="music__list__image" src="./images/tdp_logo.jpg">
+                        <p>Camisa 10</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p>Samba</p>
+            </div>
+            <div>
+                <p>Eletronica</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        &copy; 2024 - Todos os Direitos Reservados - Gabriel
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

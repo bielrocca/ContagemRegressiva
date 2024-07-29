@@ -1,0 +1,41 @@
+.music {
+    padding: 5.6vw;
+    min-height: 100vh;
+    text-align: center;
+    place-items: center;
+    display: grid;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px 100px;
+
+        @media (max-width: 640px) {
+            grid-template-columns: 1fr;
+        }
+
+        &__title {
+            padding-bottom: 30px;
+        }
+    }
+
+    &__list {
+        display: grid;
+        gap: 10px;
+
+        &__item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        &__image {
+            height: 45px;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.hero {
+    text-align: center;
+    place-items: center;
+    min-height: 100vh;
+    display: grid;
+    align-content: center;
+
+    .container {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+
+    &__image {
+        margin: 0 auto;
+        height: 80px;
+        display: block;
+
+        @media (max-width: 640px) {
+            height: 60px;
+        }
+    }
+
+    &__text {
+        font-size: 25px;
+        line-height: 36px;
+        margin-top: 32px;
+        margin-bottom: 64px;
+
+        @media (max-width: 640px) {
+            font-size: 18px;
+        }
+    }
+
+    &__description {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 32px;
+        margin-bottom: 64px;
+
+        @media (max-width: 640px) {
+            font-size: 14px;
+        }
+    }
+
+    &__button {
+        display: block;
+        margin: 0 auto;
+
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid;
+        transition: .5s;
+
+        @media (max-width: 640px) {
+            padding: 8px;
+            font-size: 12px;
+        }
+        
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 1px solid #000;
+            transition: .5s;
+            transform: scale(1.04);
+        }
+    }
+
+    @media (max-width: 640px) {
+        width: 100%;
+    }
+}
